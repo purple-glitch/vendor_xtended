@@ -74,7 +74,7 @@ function setup_vendor() {
         exit 1
     fi
 
-    export OUTDIR=vendor/"$VENDOR"/"$DEVICE"
+    export OUTDIR=vendor/ee/"$VENDOR"/"$DEVICE"
     if [ ! -d "$XTENDED_ROOT/$OUTDIR" ]; then
         mkdir -p "$XTENDED_ROOT/$OUTDIR"
     fi
