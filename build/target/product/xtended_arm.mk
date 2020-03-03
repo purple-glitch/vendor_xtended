@@ -14,7 +14,7 @@
 
 $(call inherit-product, build/target/product/aosp_arm.mk)
 
-include vendor/xtended/build/target/product/xtended_generic_target.mk
+include vendor/ee/build/target/product/xtended_generic_target.mk
 
 TARGET_USES_64_BIT_BINDER := true
 
