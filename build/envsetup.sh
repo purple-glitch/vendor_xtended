@@ -262,7 +262,7 @@ function xtended_device_combos()
     local T list_file variant device
 
     T="$(gettop)"
-    list_file="${T}/vendor/xtended/xtended.devices"
+    list_file="${T}/vendor/ee/xtended.devices"
     variant1="userdebug"
     variant2="user"
 
@@ -285,7 +285,7 @@ function xtended_device_combos()
     if [[ ! -f "${list_file}" ]]
     then
         echo "unable to find device list: ${list_file}"
-        list_file="${T}/vendor/xtended/xtended.devices"
+        list_file="${T}/vendor/ee/xtended.devices"
         echo "defaulting device list file to: ${list_file}"
     fi
 
@@ -673,7 +673,7 @@ alias cmkap='dopush cmka'
 
 function repopick() {
     T=$(gettop)
-    $T/vendor/xtended/build/tools/repopick.py $@
+    $T/vendor/ee/build/tools/repopick.py $@
 }
 
 function fixup_common_out_dir() {
