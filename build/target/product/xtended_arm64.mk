@@ -14,6 +14,6 @@
 
 $(call inherit-product, build/target/product/aosp_arm64.mk)
 
-include vendor/xtended/build/target/product/xtended_generic_target.mk
+include vendor/ee/build/target/product/xtended_generic_target.mk
 
 PRODUCT_NAME := xtended_arm64
