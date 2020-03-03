@@ -14,4 +14,4 @@
 # limitations under the License.
 
 # Rules for QCOM targets
-include $(TOPDIR)vendor/xtended/build/core/qcom_target.mk
+include $(TOPDIR)vendor/ee/build/core/qcom_target.mk
